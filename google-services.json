@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "13986295999",
+    "project_id": "panelavelha-862d8",
+    "storage_bucket": "panelavelha-862d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13986295999:android:afc94d1dce2a48aa54560a",
+        "android_client_info": {
+          "package_name": "com.euflausino.panelaVelha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP6RT4Rat9fxOGRFsl-BkCU2UwdJ6OZx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

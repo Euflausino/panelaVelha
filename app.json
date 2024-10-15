@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Panela Velha",
+    "slug": "panelaVelha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logop.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splashlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffc93d"
+    },
+    "ios": {
+      "bundleIdentifier": "com.euflausino.panelaVelha",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.euflausino.panelaVelha"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "efdf22ce-c18d-47ac-b81a-db8bcf0d9527"
+      }
+    }
+  }
+}
