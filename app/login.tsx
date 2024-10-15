@@ -77,7 +77,7 @@ export default function Cadastro(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#070717',
+    backgroundColor: '#1E1E1E',
   },
   containerHeader:{
     flex:1,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
   inputArea:{
     flexDirection:'row',
     width:'80%',
-    backgroundColor:"#1F1F2E",
+    backgroundColor:"#252525",
     borderRadius:8,
     height:50,
     alignItems:'center',

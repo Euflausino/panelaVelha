@@ -43,7 +43,7 @@ const  styles = StyleSheet.create({
   },
   containerForm:{
     flex:1,
-    backgroundColor:'#1F1F2E',
+    backgroundColor:'#252525',
     borderTopLeftRadius:25,
     borderTopRightRadius:25,
     paddingStart:'5%',
@@ -51,7 +51,7 @@ const  styles = StyleSheet.create({
   },
   containerLogo:{
     flex:2,
-    backgroundColor:"#070717",
+    backgroundColor:"#1E1E1E",
     justifyContent:'center',
     alignItems:'center',
     
@@ -59,7 +59,7 @@ const  styles = StyleSheet.create({
   container:{
     
     flex:1,
-    backgroundColor:"#070717"
+    backgroundColor:"#1E1E1E"
   },
   text:{
     color:'#a1a1a1',
