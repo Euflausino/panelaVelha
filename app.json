@@ -1,58 +1,45 @@
 {
   "expo": {
     "name": "Panela Velha",
-    "slug": "panelaVelha",
+    "slug": "tailwindPNV",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logop.png",
+    "icon": "./src/assets/images/splashlogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splashlogo.png",
+      "image": "./src/assets/images/capizona.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffc93d"
+      "backgroundColor": "#fb923c"
     },
+    "newArchEnabled": true,
     "ios": {
-      "bundleIdentifier": "com.euflausino.panelaVelha",
-      "buildNumber": "1",
-      "supportsTablet": true,
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "supportsTablet": true
     },
     "android": {
-      "googleServicesFile": "./google-services.json",
-      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.euflausino.panelaVelha"
+        "foregroundImage": "./src/assets/images/splashlogo.png",
+        "backgroundColor": "#fb923c"
+      }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./src/assets/images/splashlogo.png"
     },
     "plugins": [
       "expo-router",
-      "@react-native-firebase/app",
-      "@react-native-firebase/auth",
-      "@react-native-firebase/crashlytics",
       [
-        "expo-build-properties",
+        "expo-splash-screen",
         {
-          "ios": {
-            "useFrameworks": "static"
-          }
+          "image": "",
+          "resizeMode": "contain",
+          "backgroundColor": "#fb923c"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "projectId": "efdf22ce-c18d-47ac-b81a-db8bcf0d9527"
-      }
     }
   }
 }
